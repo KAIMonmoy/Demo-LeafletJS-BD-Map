@@ -37,9 +37,9 @@ var customLayer = L.geoJson(null, {
 
 		layer.bindPopup(
 			`<ul>
-				<li>Upaz_name - ${feature.properties.Upaz_name}</li>
-				<li>Dist_name - ${feature.properties.Dist_name}</li>
-				<li>Divi_name - ${feature.properties.Divi_name}</ul>
+				<li>Upazila - ${feature.properties.Upaz_name}</li>
+				<li>District - ${feature.properties.Dist_name}</li>
+				<li>Division - ${feature.properties.Divi_name}</ul>
 			</ul>`
 		);
 	}
